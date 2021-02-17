@@ -1,0 +1,135 @@
+body{
+    height: 100%;
+    width : 100%;
+    min-width: 300px;
+    margin:auto;
+}
+header{
+    padding: 2px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    background-color: rgb(200, 248, 250);
+    width: 100%;
+    position:fixed;
+    flex:none;
+}
+.bottom{
+    background-color: rgb(202, 225, 248);
+    text-align: center;
+}
+
+
+.container{
+    background-color: rgb(10, 117, 99); 
+    width: 60%;
+    min-width: 490px;
+    height:auto;
+    margin-top: 60px;
+    min-width: 160px;
+    border-radius: 3%;
+    padding:5px ;
+    display: block;
+    justify-content: center;
+    height:auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px #888;
+    
+}
+
+.form-sec{
+   display:flex;
+   flex-direction: column;
+   width:auto;
+   height:auto;
+   margin: 10px;
+
+}
+.duefild {
+    height:auto;
+    width:auto;
+    border: rgb(10, 10, 10) 2px solid;
+    float:right;
+}
+.namefild ,
+.textfild,
+.Assignfild{
+    width:60%;
+    float:left;
+    border-radius: 3%;
+    height:35Px;
+    border: rgb(10, 10, 10) 2px solid;
+}
+
+.labetaskname,
+.labedescription,
+.labeassign{
+    display:flex;
+    font-size:20px;
+    color:whitesmoke;
+}
+.labledue{
+    float:right;
+    padding-right:90px;
+    color:whitesmoke;
+}
+
+.Top{
+    text-align: center;
+    color:ivory;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formheadline{
+    
+    color:lavender;
+}
+.formheadline h4{
+    float:left;
+    padding: 5px;
+    border-radius: 3%;
+    color:rgb(236, 131, 61)  
+}
+#name-error{ 
+    display:none; 
+    width:100%;
+    background-color:rgb(223, 88, 88);
+    opacity: 70%;
+    color:white;
+
+}
+/*=======Carde======*/
+#list{
+    margin:5%;
+    list-style: none;
+    min-width: 24rem;
+    max-width: 30rem;
+    display:grid;
+    grid-column-gap:1em;
+    grid-template-columns:repeat(6,1fr); 
+
+}
+/*=========Button=====*/
+.btnmain{
+    float:center;
+    border-radius: 10%;
+    background-color:yellow
+    
+}
+
+/*====card buttons==*/
+
+#MarkAsDone,
+#btnStatus,
+.done-btn{
+    float:right;
+    margin: 5px;
+    border-radius: 5%;
+}
+
+.Delete-btn{
+    float: left;
+}
